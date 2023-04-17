@@ -74,7 +74,7 @@ doc published on premise.
 
 The first endpoint is `devices`.
 
-### `/devices`
+### /devices
 
 By requesting `/devices`, you'll have the opportunity to request all information
 of each device :
@@ -97,18 +97,18 @@ are KIP, the request will be : `/devices?query=model=="K-IP"`. Dont forget to
 URL encode this request. Once done, it will be : 
 `/devices?query=model%3D%3D%22K-IP%22`.
 
-### `/devices/\{id\}`
+### /devices/{id}
 
 This request is the same than the the previous except that you choose 
 specifically to request one device using its `id`.
 
-### `/devices/\{id\}/last_data`
+### /devices/{id}/last_data
 
 This endpoint allows you to retreive last data for a specific device. Please
 note that whereas this resource can be used, if you need to request the last
 data of all you devices, we encourage you to use [`/last_data`](#/last_data).
 
-### `/devices/\{id\}/data`
+### /devices/{id}/data
 
 **This resource will not be available on premise !!!**
 
@@ -132,7 +132,7 @@ last datum. If you need more, you'll have to make the window sliding :
 
 This endpoint currently handle only one simple resource `/last_data`.
 
-### `/last_data`
+### /last_data
 
 The resource allow to retreive in one call the last data of each device. We
 strongly encourage you to use this endpoint as far as it'll scale very easily.
