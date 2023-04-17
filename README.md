@@ -1,6 +1,6 @@
 # Geo API v2 documentation
 
-_Updated on March the 31th 2023_
+_Updated on April the 17th 2023_
 
 This API allow users to retreive raw data transmitted by their geo capable
 devices. This API supports following device types :
@@ -182,3 +182,5 @@ in the swagger documentation.
 If you have any question, requirements, or suggestion, about the API or the
 documentation itself, don't hesitate to contact us via email : 
 [contact@api-k.com](mailto:contact@api-k.com?subject=About%20Geo%20API%20v2).
+
+Otherwise, you can open an issue on our [Github Project](https://github.com/APIK-Lab/geo_api_v2_doc/issues).
